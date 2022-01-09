@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d60c8493-06d0-49b7-bbf5-4f11e0b2c986">
+  <producedTypes>
+    <refType typeId="cf693891-11eb-4cf7-bf01-ad634fe5e55c" valueTypeId="d6934497-3778-4f22-b8a8-2266e36ac31e"/>
+    <listType typeId="763082d3-4c16-46f0-b745-d5b519b05bf1" valueTypeId="b204ed2b-acc8-4815-b52e-c39980caaed8"/>
+    <managerType typeId="71830956-e8b7-4496-a1f1-3532780baaa5" valueTypeId="8259db89-837a-4d6a-9a39-b283595c7b48"/>
+  </producedTypes>
+  <name>ВидТренировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид тренировки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a410f6a8-efdd-4326-9cc8-e988e60ac6b4">
+    <name>Сложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сложение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="15b0d1f4-6b96-40ea-bfc8-5568462f284e">
+    <name>Вычитание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вычитание</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

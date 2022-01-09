@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a4b278b-42f4-4b71-bbeb-201d03cc831b">
+  <name>Математика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Математика</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="3647353d-987c-4db5-95ab-0e4c7870e6b3"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="4746b281-dab3-4362-b33d-ab476685ab6b"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="0cf0a7b3-50db-4334-ad58-2af620ce7c35"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="583efc9b-8550-452c-a1f0-f82b4dec5331"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="23b544e0-c59e-4ce5-98ea-e2ad62a7b6c6"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="0b2dcce6-2eac-41b8-b156-e4f7353cdd2c"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="bcbd7298-8d41-445d-aed6-46190f6ada33"/>
+  <configurationExtensionCompatibilityMode>8.3.20</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.20</compatibilityMode>
+  <languages uuid="434397f9-cf70-474f-8594-c6649c48fb5a">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonPictures>CommonPicture.Победа</commonPictures>
+  <commonPictures>CommonPicture.Поражение</commonPictures>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <enums>Enum.ВидТренировки</enums>
+  <dataProcessors>DataProcessor.ТренировкаКачество</dataProcessors>
+</mdclass:Configuration>

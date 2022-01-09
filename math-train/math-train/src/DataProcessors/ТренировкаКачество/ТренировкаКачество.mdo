@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31cb9efc-da0b-4e5c-b2aa-4c282ac011cf">
+  <producedTypes>
+    <objectType typeId="35cdf375-d65f-44c6-8e0a-920526e24b50" valueTypeId="c89d1f9e-a07d-490a-aa28-0d5e59574977"/>
+    <managerType typeId="dc254915-dbca-4e81-8803-8bc3f472588f" valueTypeId="8741e6b4-a894-4469-a367-241ad5d5c57a"/>
+  </producedTypes>
+  <name>ТренировкаКачество</name>
+  <synonym>
+    <key>ru</key>
+    <value>Качество</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ТренировкаКачество.Form.Форма</defaultForm>
+  <forms uuid="801039d7-7b2a-48a0-86a0-e448cae7c427">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="10c414a7-6c71-443c-aebb-70f06383af55">
+    <name>ТренировкаНаКачество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тренировка на качество</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>
